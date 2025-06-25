@@ -29,10 +29,6 @@ EOF
 
 echo "✅ Created new diary entry: $FILE_NAME"
 
-# Add link to README.md
-README_FILE="README.md"
-LINK_LINE="- [${POST_TITLE}](./${POST_URL})"
-
 # Check if link already exists
 if grep -q "${POST_URL}" "$README_FILE"; then
   echo "ℹ️ Link already exists in README.md"
