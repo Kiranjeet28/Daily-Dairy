@@ -22,8 +22,8 @@ date: ${TODAY}
 ---
 
 **✅ Tasks Done:
--> working on dashborad 
--> update the status of the booking for photograher & user also 
+1. Testing all Booking with photographer & user
+2. Favourite user functionality for User
 **
 EOF
 
@@ -41,7 +41,7 @@ else
   echo "📌 Added link to README.md"
 fi
 
- Git commands (optional - uncomment to automate)
+#  Git commands (optional - uncomment to automate)
  git add .
  git commit -m "Added diary entry for $LONG_DATE"
  git push origin main
