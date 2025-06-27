@@ -22,8 +22,10 @@ date: ${TODAY}
 ---
 
 **✅ Tasks Done:
-1. Testing all Booking with photographer & user
-2. Favourite user functionality for User
+1. Notification Add for Getting Booking
+2. Middleware update for Booking
+3. Test Cases for Booking
+4. Booking API Integration
 **
 EOF
 
