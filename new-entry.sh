@@ -22,10 +22,14 @@ date: ${TODAY}
 ---
 
 **✅ Tasks Done:
-1. Notification Add for Getting Booking
-2. Middleware update for Booking
-3. Test Cases for Booking
-4. Booking API Integration
+Working with Cookies using for login
+Indicates you have learned how to use cookies, likely for managing user authentication during login processes.
+
+Learning how to make test csase
+Shows you have started learning how to create test cases, which are essential for verifying that your code works as expected.
+
+
+
 **
 EOF
 
