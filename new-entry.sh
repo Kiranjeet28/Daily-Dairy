@@ -21,30 +21,21 @@ title: "${POST_TITLE}"
 date: ${TODAY}
 ---
 
-**✅ Tasks Done:
-1. Integration Testing : Integration testing is a crucial phase in software development where you test how different components or modules of your application work together. Unlike unit testing, which focuses on individual functions or classes in isolation, integration testing verifies that the interfaces between different parts of your system function correctly when combined. 
--> Done with the team.
--> Make sure to cover all edge cases and interactions between components.
-2. Code Review : Code review is a process where developers examine each other's code to ensure quality, identify bugs, and share knowledge. It helps maintain coding standards, improves code quality, and fosters collaboration within the team.
--> Conducted a thorough review of the codebase.
--> Provided constructive feedback to improve code quality.
-3. Documentation : Documentation is the practice of creating written records that explain how software works, how to use it, and how to maintain it. Good documentation is essential for onboarding new team members,
-ensuring that knowledge is shared, and making it easier to maintain and update software over time.
--> Updated the project documentation to reflect recent changes.
--> Ensured that all new features are well-documented for future reference.        
+## ✅ Tasks Done
 
-**✅ Tasks Planned:
-1. User Acceptance Testing (UAT) : UAT is the final phase of the software testing process, where real users test the software to ensure it meets their needs and requirements. This phase is crucial for identifying any issues or gaps in functionality before the software is released to a wider audience.
--> Plan and execute UAT sessions with key stakeholders.
--> Gather feedback and make necessary adjustments before launch.
-2. Performance Testing : Performance testing is a type of testing that evaluates the speed, scalability, and stability of a system under a particular workload. The goal is to identify and eliminate performance bottlenecks before the software is deployed.
--> Conduct load testing to simulate real-world usage.
--> Optimize code and infrastructure based on test results.
-3. Security Testing : Security testing is a process to determine if an information system protects data and maintains functionality as intended. It involves identifying vulnerabilities, threats, and risks in a software application.
--> Perform vulnerability assessments and penetration testing.
--> Address any security issues before the software goes live.
-
-**
+1. Had a meeting with boss to learn about testing and related topics.
+2. MOM:
+  - Testing & reviews of 4 July 2025.
+3. State changes in the buttons of Portfolio:
+  - a) "Make it yours" should be shown until no data is added in portfolio. ✔️
+  - b) "Save Changes" & "Discard Changes" should appear when changes are made in the portfolio. ✔️
+  - c) "Preview" button to view current changes in the portfolio.
+4. Published working changes.
+5. Corrected the URL while editing. ✔️
+6. Save every state of the published portfolio.
+7. Routing changes:
+  - 1. If portfolio has data, route to `/dashboard/main`.
+  - 2. Published portfolio routes to the link of the published portfolio. ✔️
 EOF
 
 echo "✅ Created new diary entry: $FILE_NAME"
