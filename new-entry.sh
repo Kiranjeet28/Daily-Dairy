@@ -22,14 +22,9 @@ date: ${TODAY}
 ---
 
 ## ✅ Tasks Done
-1. Testing the Portfolio API
-2. Fix the API
-3. Make the portfolio with the API
-4. Make the versions of the portfolio
-5. Make the portfolio with the versions
-## 📝 Notes
-- Correct the API first
-- Make the portfolio with the versions
+1. DEBUG : Fixed issue with date formatting
+2. REVIEW : Reviewed the new entry script
+3. UPDATE : Updated README with new entry link
 EOF
 
 echo "✅ Created new diary entry: $FILE_NAME"
